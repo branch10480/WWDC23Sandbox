@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SFSymbolAnimationViewController: UIViewController {
 
@@ -19,5 +20,6 @@ class SFSymbolAnimationViewController: UIViewController {
 private extension SFSymbolAnimationViewController {
     func setup() {
         title = "SFSymbol Animation"
+        view.add(swiftUIView: SymbolView())
     }
 }

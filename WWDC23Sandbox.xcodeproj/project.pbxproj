@@ -15,6 +15,8 @@
 		48FA76112A51B25F008CABDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FA760F2A51B25F008CABDE /* LaunchScreen.storyboard */; };
 		48FA761C2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA761A2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift */; };
 		48FA761D2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48FA761B2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib */; };
+		48FA761F2A51BF7A008CABDE /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA761E2A51BF7A008CABDE /* SymbolView.swift */; };
+		48FA76212A51C425008CABDE /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA76202A51C425008CABDE /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		48FA76122A51B25F008CABDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48FA761A2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolAnimationViewController.swift; sourceTree = "<group>"; };
 		48FA761B2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFSymbolAnimationViewController.xib; sourceTree = "<group>"; };
+		48FA761E2A51BF7A008CABDE /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		48FA76202A51C425008CABDE /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				48FA760D2A51B25F008CABDE /* Assets.xcassets */,
 				48FA760F2A51B25F008CABDE /* LaunchScreen.storyboard */,
 				48FA76122A51B25F008CABDE /* Info.plist */,
+				48FA76202A51C425008CABDE /* UIView+.swift */,
 			);
 			path = WWDC23Sandbox;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				48FA761A2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift */,
 				48FA761B2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib */,
+				48FA761E2A51BF7A008CABDE /* SymbolView.swift */,
 			);
 			path = SFSymbolAnimation;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FA76212A51C425008CABDE /* UIView+.swift in Sources */,
 				48FA76092A51B25F008CABDE /* ViewController.swift in Sources */,
+				48FA761F2A51BF7A008CABDE /* SymbolView.swift in Sources */,
 				48FA76052A51B25F008CABDE /* AppDelegate.swift in Sources */,
 				48FA761C2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift in Sources */,
 				48FA76072A51B25F008CABDE /* SceneDelegate.swift in Sources */,
