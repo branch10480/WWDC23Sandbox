@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4885DE582A51CC7700FD5244 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 4885DE572A51CC7700FD5244 /* AppFeature */; };
 		48FA76052A51B25F008CABDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA76042A51B25F008CABDE /* AppDelegate.swift */; };
 		48FA76072A51B25F008CABDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA76062A51B25F008CABDE /* SceneDelegate.swift */; };
 		48FA76092A51B25F008CABDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA76082A51B25F008CABDE /* ViewController.swift */; };
 		48FA760C2A51B25F008CABDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FA760A2A51B25F008CABDE /* Main.storyboard */; };
 		48FA760E2A51B25F008CABDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FA760D2A51B25F008CABDE /* Assets.xcassets */; };
 		48FA76112A51B25F008CABDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FA760F2A51B25F008CABDE /* LaunchScreen.storyboard */; };
-		48FA761C2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA761A2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift */; };
-		48FA761D2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48FA761B2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib */; };
-		48FA761F2A51BF7A008CABDE /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA761E2A51BF7A008CABDE /* SymbolView.swift */; };
-		48FA76212A51C425008CABDE /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA76202A51C425008CABDE /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48A562362A51CABB0077974D /* WWDC23Sandbox */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WWDC23Sandbox; path = ..; sourceTree = "<group>"; };
 		48FA76012A51B25F008CABDE /* WWDC23Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC23Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FA76042A51B25F008CABDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FA76062A51B25F008CABDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +26,6 @@
 		48FA760D2A51B25F008CABDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FA76102A51B25F008CABDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48FA76122A51B25F008CABDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48FA761A2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolAnimationViewController.swift; sourceTree = "<group>"; };
-		48FA761B2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFSymbolAnimationViewController.xib; sourceTree = "<group>"; };
-		48FA761E2A51BF7A008CABDE /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
-		48FA76202A51C425008CABDE /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4885DE582A51CC7700FD5244 /* AppFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4885DE562A51CC7700FD5244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48FA75F82A51B25F008CABDE = {
 			isa = PBXGroup;
 			children = (
 				48FA76032A51B25F008CABDE /* WWDC23Sandbox */,
+				48A562362A51CABB0077974D /* WWDC23Sandbox */,
 				48FA76022A51B25F008CABDE /* Products */,
+				4885DE562A51CC7700FD5244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +68,6 @@
 		48FA76032A51B25F008CABDE /* WWDC23Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				48FA76182A51B8CA008CABDE /* ChildViews */,
 				48FA76042A51B25F008CABDE /* AppDelegate.swift */,
 				48FA76062A51B25F008CABDE /* SceneDelegate.swift */,
 				48FA76082A51B25F008CABDE /* ViewController.swift */,
@@ -72,27 +75,8 @@
 				48FA760D2A51B25F008CABDE /* Assets.xcassets */,
 				48FA760F2A51B25F008CABDE /* LaunchScreen.storyboard */,
 				48FA76122A51B25F008CABDE /* Info.plist */,
-				48FA76202A51C425008CABDE /* UIView+.swift */,
 			);
 			path = WWDC23Sandbox;
-			sourceTree = "<group>";
-		};
-		48FA76182A51B8CA008CABDE /* ChildViews */ = {
-			isa = PBXGroup;
-			children = (
-				48FA76192A51B8D3008CABDE /* SFSymbolAnimation */,
-			);
-			path = ChildViews;
-			sourceTree = "<group>";
-		};
-		48FA76192A51B8D3008CABDE /* SFSymbolAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				48FA761A2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift */,
-				48FA761B2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib */,
-				48FA761E2A51BF7A008CABDE /* SymbolView.swift */,
-			);
-			path = SFSymbolAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +95,9 @@
 			dependencies = (
 			);
 			name = WWDC23Sandbox;
+			packageProductDependencies = (
+				4885DE572A51CC7700FD5244 /* AppFeature */,
+			);
 			productName = WWDC23Sandbox;
 			productReference = 48FA76012A51B25F008CABDE /* WWDC23Sandbox.app */;
 			productType = "com.apple.product-type.application";
@@ -155,7 +142,6 @@
 			files = (
 				48FA76112A51B25F008CABDE /* LaunchScreen.storyboard in Resources */,
 				48FA760E2A51B25F008CABDE /* Assets.xcassets in Resources */,
-				48FA761D2A51B8FC008CABDE /* SFSymbolAnimationViewController.xib in Resources */,
 				48FA760C2A51B25F008CABDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,11 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FA76212A51C425008CABDE /* UIView+.swift in Sources */,
 				48FA76092A51B25F008CABDE /* ViewController.swift in Sources */,
-				48FA761F2A51BF7A008CABDE /* SymbolView.swift in Sources */,
 				48FA76052A51B25F008CABDE /* AppDelegate.swift in Sources */,
-				48FA761C2A51B8FC008CABDE /* SFSymbolAnimationViewController.swift in Sources */,
 				48FA76072A51B25F008CABDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +378,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4885DE572A51CC7700FD5244 /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48FA75F92A51B25F008CABDE /* Project object */;
 }

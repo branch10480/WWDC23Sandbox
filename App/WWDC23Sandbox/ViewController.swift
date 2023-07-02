@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AppFeature
 
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!

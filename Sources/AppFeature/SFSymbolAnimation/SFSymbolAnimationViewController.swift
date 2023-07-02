@@ -8,9 +8,9 @@
 import UIKit
 import SwiftUI
 
-class SFSymbolAnimationViewController: UIViewController {
+public class SFSymbolAnimationViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         setup()
     }
